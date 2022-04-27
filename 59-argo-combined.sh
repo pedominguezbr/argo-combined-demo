@@ -265,3 +265,6 @@ kubectl argo rollouts \
     --watch
 
 open http://argo-combined-app.$ISTIO_HOST.nip.io
+
+
+kubectl kustomize ./
