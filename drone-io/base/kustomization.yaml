@@ -2,11 +2,11 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - namespace.yaml
-namespace: drone-io
+namespace: drone
 
 
 helmCharts:
-- name: drone
+- name: drone-server
   includeCRDs: true
   repo: https://charts.cryptic.systems/volker.raschek
   version: 0.3.1
