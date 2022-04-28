@@ -6,10 +6,10 @@ namespace: drone
 
 
 helmCharts:
-- name: drone-server
+- name: drone
   includeCRDs: true
   repo: https://charts.cryptic.systems/volker.raschek
   version: 0.3.1
-  releaseName: drone
+  releaseName: drone-server
   # override with these custom values
   valuesFile: values.yaml
