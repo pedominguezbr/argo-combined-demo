@@ -8,7 +8,7 @@ ingress:
   enabled: true
   className: "nginx"
   hosts:
-  - host: "drone-io"
+  - host: "drone-server.server.local"
     paths:
     - path: /
       pathType: ImplementationSpecific
