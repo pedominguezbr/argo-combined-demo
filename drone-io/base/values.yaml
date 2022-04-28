@@ -6,8 +6,10 @@ config:
   DRONE_BITBUCKET_CLIENT_ID: "1234547878"
   DRONE_BITBUCKET_CLIENT_SECRET: "1233545545545454"
   DRONE_RPC_SECRET: "13m5fn71xwvbfgpq"
+  DRONE_SERVER_HOST: "drone-server"
   DRONE_SERVER_PROTO: "http"
   DRONE_USER_CREATE: username:fragurto,admin:true
+
 ingress:
   enabled: false
   className: "nginx"
