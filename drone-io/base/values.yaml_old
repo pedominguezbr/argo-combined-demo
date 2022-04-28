@@ -1,0 +1,14 @@
+replicaCount: 1
+resources:
+  limits:
+    cpu: 300m
+config:
+  DRONE_BITBUCKET_CLIENT_ID: "123"
+ingress:
+  enabled: true
+  className: "nginx"
+  hosts:
+  - host: "drone-server.server.local"
+    paths:
+    - path: /
+      pathType: ImplementationSpecific

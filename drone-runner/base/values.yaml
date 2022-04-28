@@ -3,6 +3,8 @@ resources:
   limits:
     cpu: 300m
 config:
-  DRONE_RPC_HOST: "123"
+  DRONE_RPC_HOST: "drone-server.drone.svc.cluster.local:80"
   DRONE_RUNNER_NAME: "drone"
   DRONE_DEBUG: "true"
+  DRONE_RPC_SECRET: "13m5fn71xwvbfgpq"
+  DRONE_RPC_PROTO: "http"
