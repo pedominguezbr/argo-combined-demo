@@ -1,0 +1,8 @@
+replicaCount: 1
+resources:
+  limits:
+    cpu: 300m
+config:
+  DRONE_RPC_HOST: "123"
+  DRONE_RUNNER_NAME: "drone"
+  DRONE_DEBUG: "true"
